@@ -6,6 +6,6 @@ import { login } from '../controllers/Login.controller';
 const router = Router();
 
 // Rotas e o Controllers
-router.post('/login', login);
+router.get('/login', login);
 
 export default router;
